@@ -489,7 +489,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 .blog .entry .entry-footer a:hover {
-  color: #d9232d;
+  color: #eb00db;
 }
 .blog .entry .entry-footer .cats {
   list-style: none;
