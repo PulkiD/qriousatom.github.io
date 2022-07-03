@@ -1,74 +1,240 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-        <title>QriousAtom</title>
-        <meta content="" name="description">
-        <meta content="" name="keywords">
-        <!-- Facebook Opengraph integration: https://developers.facebook.com/docs/sharing/opengraph -->
-        <meta property="og:title" content="">
-        <meta property="og:image" content="">
-        <meta property="og:url" content="">
-        <meta property="og:site_name" content="">
-        <meta property="og:description" content="">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-        <!-- Twitter Cards integration: https://dev.twitter.com/cards/  -->
-        <meta name="twitter:card" content="summary">
-        <meta name="twitter:site" content="">
-        <meta name="twitter:title" content="">
-        <meta name="twitter:description" content="">
-        <meta name="twitter:image" content="">
+  <title>QriousAtom | Home</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
-        <!-- Favicons -->
-        <link href="" rel="icon">
-        <link href="" rel="apple-touch-icon">
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-        <!-- Google Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
-        <!-- Vendor CSS Files -->
-        <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-        <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-        <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-        <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-        <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-        <!-- Template Main CSS File -->
-        <link href="assets/css/style.css" rel="stylesheet">
-    </head>
-    <body>
-        <!-- ======= Start Landing Page ======= -->
-        <section id="hero">
-            <div class="hero-container">
-                <div data-aos="fade-in">
-                    <div class="hero-logo">
-                        <img class="" src="assets/img/logo.png" alt="QriousAtom", width="1280 px", height="180 px">
-                    </div>
-                    <!-- <h1>Welcome to QriousAtom</h1> -->
-                    <h2>I share my opinions on 
-                        <span class="typed" data-typed-items="AI in healthcare, Bioinformatics, Finance and Business, Self-improvement"></span>
-                    </h2>
-                    <div class="actions">
-                        <a href="blog.html" class="btn-blog">Blogs</a>
-                        <a href="about.html" class="btn-about">About</a>
-                    </div>
-                </div>
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PRTR6V4Q5K"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-PRTR6V4Q5K');
+  </script>
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top header-transparent">
+    <div class="container d-flex align-items-center justify-content-between">
+      <div class="logo">
+        <h1 class="text-light"><a href="index.html"><span>QriousAtom</span></a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="Test" class="img-fluid"></a> -->
+      </div>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#portfolio">Blogs</a></li>
+          <li><a class="nav-link scrollto" href="#team">About Me</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div class="hero-container" data-aos="fade-up">
+      <h1>QriousAtom</h1>
+      <h2>Associating with unknown to known</h2>
+      <a href="#portfolio" class="btn-get-started scroll"><i class="bx bx-chevrons-up"></i></a>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+    
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+    </section><!-- End Cta Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+        <div class="section-title" data-aos="fade-in" data-aos-delay="100">
+          <h2>Blogs</h2>
+          <p>Trying to do better!</p>
+        </div>
+
+        <div class="row" data-aos="fade-in">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-recent" class>Recent</li>
+              <li data-filter=".filter-dio" class>Let's Decode</li>
+              <li data-filter=".filter-pf" class>Personal Finance</li>
+              <li data-filter=".filter-excr" class>Excrusions</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up">
+
+          <div class="col-lg-6 portfolio-item filter-recent filter-dio">
+            <div class="portfolio-info">
+              <div class="portfolio-wrap">
+                <a href="blogs/blog_kd_v1.html"><h4>kid v_1 dio</h4></a>
+                <p>
+                Qui repudiandae et eum dolores alias sed ea. Qui suscipit veniam excepturi quod.
+                </p>
+                <em><a href="index.html">Click here</a></em>
+              </div>
             </div>
-        </section>
-        <!-- Start Landing Page -->
-        
-        <!-- Vendor JS Files -->
-        <script src="assets/vendor/aos/aos.js"></script>
-        <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-        <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-        <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-        <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-        <script src="assets/vendor/typed.js/typed.min.js"></script>
-        <script src="assets/vendor/php-email-form/validate.js"></script>
+          </div>
 
-        <!-- Template Main JS File -->
-        <script src="assets/js/main.js"></script>
-    </body>
+          <div class="col-lg-6 portfolio-item filter-pf">
+            <div class="portfolio-info">
+              <div class="portfolio-wrap">
+                <a href="blogs/blog_kd_v1.html"><h4>kid v_1 pf</h4></a>
+                <p>
+                Qui repudiandae et eum dolores alias sed ea. Qui suscipit veniam excepturi quod.
+                </p>
+                <em><a href="index.html">Click here</a></em>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 portfolio-item filter-excr">
+            <div class="portfolio-info">
+              <div class="portfolio-wrap">
+                <a href="blogs/blog_kd_v1.html"><h4>kid v_1 excr</h4></a>
+                <p>
+                Qui repudiandae et eum dolores alias sed ea. Qui suscipit veniam excepturi quod.
+                </p>
+                <em><a href="index.html">Click here</a></em>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 portfolio-item filter-dio">
+            <div class="portfolio-info">
+              <div class="portfolio-wrap">
+                <a href="blogs/blog_kd_v1.html"><h4>kid v_1 dio</h4></a>
+                <p>
+                Qui repudiandae et eum dolores alias sed ea. Qui suscipit veniam excepturi quod.
+                </p>
+                <em><a href="index.html">Click here</a></em>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+    </section><!-- End Cta Section -->
+
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-in" data-aos-delay="100">
+          <h2>About Me</h2>
+          <em>
+            <p>In the quest of discovering novel stuff, people nowadays underestimate the power of what’s already out there! And that’s where people like me become an intrinsic part of society. An <b>Associator</b> across domains, distilling down actionable takeaways on top of connected entities.</p>
+            <br>
+            <p>My personal belief is: "<b>Soft-skills matter the most</b>". Any technique and technology can be learned and implemented but soft skills are a reflection of character. Something that takes a lot of time and effort to build</p>
+          </em>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="member" data-aos="fade-up" data-aos-delay="150">
+              <div class="pic"><img src="assets/img/about/pulkit.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Pulkit Anupam Srivastava 👨‍💻</h4>
+                <span>Bioinformatician cum NLP Engineer</span>
+                <div class="social">
+                  <a href="https://twitter.com/pulkit_1322"><i class="bi bi-twitter"></i></a>
+                  <a href="https://www.instagram.com/pulkit.2123/"><i class="bi bi-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/pulkitanupam/"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Team Section -->
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-6">
+            <div class="footer-info">
+              <em>Qui repudiandae et eum dolores alias sed ea. Qui suscipit veniam excepturi quod.</em><br>
+              <strong>Email:</strong> info@example.com<br>
+              <div class="social-links mt-3">
+                <a href="https://twitter.com/QriousAtom" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="https://www.instagram.com/qriousatom/" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="https://www.youtube.com/channel/UCZjtCywGx7RovBrLooRLMaw" class="youtube"><i class="bx bxl-youtube"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>QriousAtom</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed by <a href="https://www.linkedin.com/in/pulkitanupam/">Pulkit Anupam Srivastava</a>
+      </div>
+    </div>
+
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
