@@ -406,6 +406,34 @@ section {
   bottom: 0;
   opacity: 1;
 }
+#portfolio .portfolio-container {
+  position: relative;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+#portfolio .btn-get-started {
+  font-size: 36px;
+  display: inline-block;
+  padding: 4px 0;
+  border-radius: 50px;
+  transition: 0.3s ease-in-out;
+  margin: 5px;
+  width: 64px;
+  height: 64px;
+  text-align: center;
+  border: 2px solid #fc8dec;
+  color: #592f5a;
+}
+#portfolio .btn-get-started:hover {
+  padding-right: 8px;
+}
 
 /*--------------------------------------------------------------
 # Portfolio Details
